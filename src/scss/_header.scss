@@ -1,0 +1,110 @@
+// Header
+
+.header {}
+
+.connect {
+  padding: 16px 20px;
+  background-color: var(--white);
+
+  // .connect__inner
+
+  &__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 8px;
+    row-gap: 8px;
+  }
+
+  // .connect__btn
+
+  &__btn {
+    max-width: 182px;
+  }
+
+  // .connect__count
+
+  &__count {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    padding: 4px 6px 4px 8px;
+    background-color: var(--white);
+    border: 1px solid #e8e8e8;
+    border-radius: 100px;
+  }
+
+  // .connect__count-sum
+
+  &__count-sum {
+    display: flex;
+    align-items: center;
+    column-gap: 2px;
+  }
+
+  // .connect__count-icon
+
+  &__count-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    min-width: 22px;
+    background-color: var(--black);
+    border-radius: 100%;
+  }
+
+  // .connect__count-input
+
+  &__count-input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 0 2px;
+    margin: 0;
+    background-color: transparent;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--black);
+  }
+
+  // .connect__count-actions
+
+  &__count-actions {
+    display: flex;
+    align-items: center;
+    column-gap: 2px;
+  }
+
+  // .connect__count-minus
+
+  &__count-minus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    border-radius: 100%;
+    background-color: var(--main-second);
+    border: 0;
+    outline: 0;
+  }
+
+  // .connect__count-plus
+
+  &__count-plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    border-radius: 100%;
+    background-color: var(--main-second);
+    border: 0;
+    outline: 0;
+  }
+}
